@@ -1,0 +1,21 @@
+{
+  "name": "learning-three",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.184.0",
+    "parcel": "^2.16.4",
+    "typescript": "^6.0.3"
+  }
+}

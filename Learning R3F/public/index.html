@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>R3F Práctica</title>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+        #root { width: 100vw; height: 100vh; }
+         /* los estilos width: 100vw; height: 100vh en #root son necesarios. 
+         Canvas de R3F llena su contenedor padre. Si el padre tiene altura cero, no ves nada. 
+         Es uno de los bugs más comunes al iniciar. */
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="../src/index.tsx"></script>
+</body>
+</html>
